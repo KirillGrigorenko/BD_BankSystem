@@ -1,0 +1,8 @@
+Client (id, fio, phone, birth, login, password)
+Kredit (id, name, county, loan, term)
+KreditClient (id, idClient, idKredit, date_op, date_close, repaid)
+Vklad (id, name, county, loan, term)
+VkladClient (id, idClient, idVklad, date_op, date_close, repaid)
+Schet (id, idclient, currency, balance, date_op)
+
+pgAdmin // LocalHost// *name* 
